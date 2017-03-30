@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=width-device" initial-scale=1">
+    <title>Battle Ship</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+</head>
+<body>
+<div class="container" id="bin">
+    <div class="row">
+        <div class="col-xs-12" id="header">
+            <h1> Battle Ship</h1>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-xs-12" id="board">
+            <div id="boardArea">
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12" id="displayArea">
+            <div class="col-md-2 col-xs-6">
+                <form id="chooseLevel" name="chooseLevel"> Difficulty level: </br>
+                    <input type="radio" name="level" value="easy" checked>  Easy</br>
+                    <input type="radio" name="level" value="middle"> Middle </br>
+                    <input type="radio" name="level" value="hard"> Hard </br>
+                </form>
+            </div>
+            <div class="col-md-2 col-xs-6">
+                <button class="btn btn-success" id="newGame"> New Game</button></br>
+                <button class="btn btn-danger" id="finishGame">Finish Game</button></br>
+            </div>
+            <div  class="col-md-8 col-xs-12">
+                <h4 class=""> Yoor score:</h4>
+                Bonus for time: </br>
+                Bonus for accurancy: </br>
+                You gained document.write(" ") points</br>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12" id="footer">
+            <em> &copy; All rights reserved - Mateusz Mączyński</em>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
